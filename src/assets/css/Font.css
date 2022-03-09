@@ -8,11 +8,11 @@ a {
 }
 
 th {
-    font-family: 'Poppins';
+    font-family: 'Work Sans';
 }
 
 td {
-    font-family: 'Poppins';
+    font-family: 'Work Sans';
 }
 
 h1 {
@@ -46,7 +46,7 @@ strong {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 18px;
     color:#1a202c;
     font-family: 'Work Sans';
     font-weight: 400;
@@ -54,18 +54,18 @@ p {
 }
 
 ol li {
-    font-family: 'Poppins';
+    font-family: 'Work Sans';
     color:#1a202c;
 }
 
 ul li {
-    font-family: 'Poppins';
+    font-family: 'Work Sans';
     color:#1a202c;
 }
 
 
 .paragraph {
-    font-family: 'Poppins';
+    font-family: 'Work Sans';
     font-weight: 400;
 }
 
