@@ -19,7 +19,7 @@ class Editor extends React.Component {
                     config={{
                         placeholder: 'Apa yang anda pikirkan...',
                         ckfinder: {
-                            uploadUrl: 'https://skarid.herokuapp.com/upload'
+                            uploadUrl: 'https://node-penulis.herokuapp.com/upload'
                         },
                         image: {
                             toolbar: ['imageStyle:full','imageStyle:side','imageStyle:alignLeft','imageStyle:alignCenter','imageStyle:alignRight','|','imageTextAlternative'],
