@@ -65,7 +65,7 @@ function Header() {
             <div className='main' style={styles.main}>
                 <div className="box-flex-between">
                     <div className='menu'>
-                        <Link className="logo" to="/">Penulis<span style={{color:'#ff8a00'}}>.site</span></Link>
+                        <Link className="logo" to="/">Penulis<span style={{color:'#000'}}>.site</span></Link>
                         <Link className="item" to="/">Catatan Programming</Link>
                     </div>
                     <div className='box-nav-right'>
