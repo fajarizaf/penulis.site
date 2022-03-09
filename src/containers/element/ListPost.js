@@ -33,7 +33,7 @@ function ListPost() {
             post.map((key,value) => (
               <div className="postitem" key={value}>
                 <p className="datepost">{moment(key.datepost).format('LL')}</p> 
-                <Link to={{pathname:'post/'+key.slugpost}}><h4 className="font-4">{key.titlepost}</h4></Link> 
+                <Link to={{pathname:'post/'+key.slugpost}}><h4 className="font-3">{key.titlepost}</h4></Link> 
               </div>
             ))
           }
