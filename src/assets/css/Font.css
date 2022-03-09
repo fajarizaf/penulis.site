@@ -4,7 +4,7 @@
 
 a {
     text-decoration: none;
-    font-family: 'Poppins'; 
+    font-family: 'Work Sans'; 
 }
 
 th {
@@ -56,11 +56,15 @@ p {
 ol li {
     font-family: 'Work Sans';
     color:#1a202c;
+    line-height: 2;
+    font-size: 18px;
 }
 
 ul li {
     font-family: 'Work Sans';
     color:#1a202c;
+    line-height: 2;
+    font-size: 18px;
 }
 
 
