@@ -10,8 +10,8 @@ function CardBio(props) {
             </div>
             <div className="row">
                 <h3 className="font-1" style={{color:'#1b1e17',fontSize:30}}>Penulis</h3>
-                <p style={{color:'#1b1e17'}}>Sudah genap delapan tahun terjun dan bergelut di dunia software engginering. berkerja di salah satu perusahaan webhosting
-                    nomor 1 di indonesia. berfokus pada riset dan pengembangan pada perusahaan tersebut. sering mencoba hal hal baru
+                <p style={{color:'#1b1e17'}}>Sudah genap delapan tahun terjun dan bergelut di dunia software engginering. berkerja dengan passion dan minat yang sesuai membuat
+                saya merasa bekerja seperti bermain dan fokus saya pada riset dan pengembangan pada perusahaan tersebut. sering mencoba hal hal baru
                     yang berkaitan dengan teknologi.
                 </p>
             </div>
