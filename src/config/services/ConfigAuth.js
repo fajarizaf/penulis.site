@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const send = axios.create({
     withCredentials: true,
-    baseURL: 'https://node-penulis.herokuapp.com',
+    baseURL: 'https://node-penulis-dev.herokuapp.com',
 })
 
 send.interceptors.request.use(async(config) =>{
