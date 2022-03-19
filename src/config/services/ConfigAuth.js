@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const send = axios.create({
     withCredentials: true,
-    baseURL: 'https://node-penulis.herokuapp.com',
+    baseURL: process.env.REACT_APP_ENDPOINT_API,
 })
 
 send.interceptors.request.use(async(config) =>{

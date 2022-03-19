@@ -5,7 +5,7 @@ import axios from 'axios'
 import { RecoilRoot } from 'recoil';
 
 axios.defaults.withCredentials = true
-axios.defaults.baseURL = 'https://node-penulis.herokuapp.com'
+axios.defaults.baseURL = process.env.REACT_APP_ENDPOINT_API
 
 ReactDOM.render(
   <React.StrictMode>
