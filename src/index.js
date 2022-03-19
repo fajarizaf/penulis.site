@@ -10,7 +10,7 @@ axios.defaults.baseURL = process.env.REACT_APP_ENDPOINT_API
 ReactDOM.render(
   <React.StrictMode>
     <RecoilRoot>
-      <Suspense fallback={<div>Loading....</div>}>
+      <Suspense fallback={<div>Loading.....</div>}>
         <App />
       </Suspense>
     </RecoilRoot>
