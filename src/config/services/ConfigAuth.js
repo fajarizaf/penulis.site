@@ -7,7 +7,7 @@ const send = axios.create({
 
 send.interceptors.request.use(async(config) =>{
     
-    const getToken = await axios.get('/api/auth/rtoken')
+    const getToken = await axios.get('/api/auth/rtoken', { withCredentials: true })
     config.headers.Authorization = `Bearer ${getToken.data.accessToken}`
     
     return config;
